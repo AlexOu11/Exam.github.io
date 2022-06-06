@@ -1,0 +1,75 @@
+::marker{
+	color: blue;
+	font-size: 24px;
+}
+div.curling{
+	margin: 5px;
+	border: 2px gray;
+	padding: 16px;
+
+}
+
+div.curling:hover{
+	background-color: yellow;
+}
+
+img.style1{
+	
+	opacity: 0.4;
+}
+img:hover{
+	
+	opacity: 1.0;
+}
+
+.style1{
+	border-radius: 50px;
+	height: auto;
+}
+.style2{
+	border-radius: 50%;
+	height: auto;
+}
+
+div.C{
+	width: 30px;
+	height: 50px;
+	background: red;
+	transition: width 2s;
+}
+
+.C:hover{
+	width:100px;
+}
+
+div.UF{
+	width: 30px;
+	height: 50px;
+	background: red;
+	transition: width 2s;
+}
+.UF:hover{
+	width:300px;
+}
+
+div.T{
+	width: 30px;
+	height: 50px;
+	background: red;
+	transition: width 2s;
+}
+.T:hover{
+	width:500px;
+}
+
+div.S{
+	width: 30px;
+	height: 50px;
+	background: red;
+	transition: width 2s;
+}
+.S:hover{
+	width:700px;
+}
+
+
