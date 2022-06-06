@@ -1,0 +1,59 @@
+	<!DOCTYPE html>
+	<!--圖片來源: hello是網路上抓的-->
+<html>
+	<head>
+		<title>This is the title</title>
+		<link rel="stylesheet" href="mystyle.css">
+		<script>
+			function myFunction(){
+			document.getElementById("botton").innerHTML = "沒有了!!!";
+			}
+		</script>
+	</head>
+	<body onload = "alert('Welcome my introduction!!!')" bgcolor="pink">
+		<center>
+		<img src="https://media.istockphoto.com/photos/hello-hanging-on-strings-picture-id472109614?k=20&m=472109614&s=612x612&w=0&h=igO9YEHXVRNjGLa3eLlp0Q23-5Cb88apfKC4HvEPFCA=" width="500" height="250">
+		</center>
+		<center>
+					<img src="table.jpg" width="220" height="300">
+				<!--標題藍色特效-->
+				<h1>基本資料</h1>
+					<li>姓名: 歐昱辰</li>
+					<li>就讀學校: NCU MIS</li>
+					<li>興趣: Curling、Ultimate Frisbee or 任何運動</li>
+				
+				<h2>生活照</h2>
+			
+		</center>
+		<center><!--滑鼠指到照片會變化、背景會改變顏色-->
+			<div class="curling">
+			<li>Curling</li>
+			<img class="style1" src="curling.jpg" width="250" height="500">
+			</div>
+		</center>
+			<br>
+		<center><!--照片形狀修飾-->
+			<div class="skytree">
+			<li>SkyTree</li>
+			<img class="style2" src="skytree.jpg" width="350" height="500">
+			</div>
+		</center>
+			<br>
+			
+			<center><!--長條圖特效-->
+		<h3>專長運動熟練度</h3>
+		</center>
+		Curling : 20<div class="C"></div>
+		Ultimate Frisbee : 40<div class="UF"></div>
+		Table Tennis : 60<div class="T"></div>
+		Swimming : 80<div class="S"></div>
+		
+		<center>
+		<p id="botton">還有喔!!!</p>
+		<button type="button" onclick="myFunction()">點一下</button>
+		</center>
+		
+		
+		
+	</body>
+</html>
